@@ -1,0 +1,268 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6C992BD41D472ABC00FA0CE3 /* XWEmmet.xcscheme in Resources */ = {isa = PBXBuildFile; fileRef = 6C992BD31D472ABC00FA0CE3 /* XWEmmet.xcscheme */; };
+		6C992BD71D472ABC00FA0CE3 /* XWEmmet.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C992BD61D472ABC00FA0CE3 /* XWEmmet.m */; };
+		6C992BFE1D472C0700FA0CE3 /* OCCategory in Resources */ = {isa = PBXBuildFile; fileRef = 6C992BFD1D472C0700FA0CE3 /* OCCategory */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6C992BCF1D472ABC00FA0CE3 /* XWEmmet.xcplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XWEmmet.xcplugin; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C992BD31D472ABC00FA0CE3 /* XWEmmet.xcscheme */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = XWEmmet.xcscheme; path = XWEmmet.xcodeproj/xcshareddata/xcschemes/XWEmmet.xcscheme; sourceTree = SOURCE_ROOT; };
+		6C992BD51D472ABC00FA0CE3 /* XWEmmet.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XWEmmet.h; sourceTree = "<group>"; };
+		6C992BD61D472ABC00FA0CE3 /* XWEmmet.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XWEmmet.m; sourceTree = "<group>"; };
+		6C992BD81D472ABC00FA0CE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C992BFD1D472C0700FA0CE3 /* OCCategory */ = {isa = PBXFileReference; lastKnownFileType = folder; path = OCCategory; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		6C992BC71D472ABC00FA0CE3 = {
+			isa = PBXGroup;
+			children = (
+				6C992BD11D472ABC00FA0CE3 /* XWEmmet */,
+				6C992BD01D472ABC00FA0CE3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6C992BD01D472ABC00FA0CE3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6C992BCF1D472ABC00FA0CE3 /* XWEmmet.xcplugin */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6C992BD11D472ABC00FA0CE3 /* XWEmmet */ = {
+			isa = PBXGroup;
+			children = (
+				6C992BFD1D472C0700FA0CE3 /* OCCategory */,
+				6C992BD51D472ABC00FA0CE3 /* XWEmmet.h */,
+				6C992BD61D472ABC00FA0CE3 /* XWEmmet.m */,
+				6C992BD81D472ABC00FA0CE3 /* Info.plist */,
+				6C992BD21D472ABC00FA0CE3 /* Supporting Files */,
+			);
+			path = XWEmmet;
+			sourceTree = "<group>";
+		};
+		6C992BD21D472ABC00FA0CE3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6C992BD31D472ABC00FA0CE3 /* XWEmmet.xcscheme */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6C992BCE1D472ABC00FA0CE3 /* XWEmmet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C992BDB1D472ABC00FA0CE3 /* Build configuration list for PBXNativeTarget "XWEmmet" */;
+			buildPhases = (
+				6C992BCC1D472ABC00FA0CE3 /* Sources */,
+				6C992BCD1D472ABC00FA0CE3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XWEmmet;
+			productName = XWEmmet;
+			productReference = 6C992BCF1D472ABC00FA0CE3 /* XWEmmet.xcplugin */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6C992BC81D472ABC00FA0CE3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = xiaowei;
+				TargetAttributes = {
+					6C992BCE1D472ABC00FA0CE3 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 6C992BCB1D472ABC00FA0CE3 /* Build configuration list for PBXProject "XWEmmet" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6C992BC71D472ABC00FA0CE3;
+			productRefGroup = 6C992BD01D472ABC00FA0CE3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6C992BCE1D472ABC00FA0CE3 /* XWEmmet */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6C992BCD1D472ABC00FA0CE3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C992BFE1D472C0700FA0CE3 /* OCCategory in Resources */,
+				6C992BD41D472ABC00FA0CE3 /* XWEmmet.xcscheme in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6C992BCC1D472ABC00FA0CE3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C992BD71D472ABC00FA0CE3 /* XWEmmet.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		6C992BD91D472ABC00FA0CE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		6C992BDA1D472ABC00FA0CE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		6C992BDC1D472ABC00FA0CE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = "$(HOME)";
+				INFOPLIST_FILE = XWEmmet/Info.plist;
+				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
+				PRODUCT_BUNDLE_IDENTIFIER = xiaowei.XWEmmet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xcplugin;
+			};
+			name = Debug;
+		};
+		6C992BDD1D472ABC00FA0CE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = "$(HOME)";
+				INFOPLIST_FILE = XWEmmet/Info.plist;
+				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
+				PRODUCT_BUNDLE_IDENTIFIER = xiaowei.XWEmmet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xcplugin;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6C992BCB1D472ABC00FA0CE3 /* Build configuration list for PBXProject "XWEmmet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C992BD91D472ABC00FA0CE3 /* Debug */,
+				6C992BDA1D472ABC00FA0CE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C992BDB1D472ABC00FA0CE3 /* Build configuration list for PBXNativeTarget "XWEmmet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C992BDC1D472ABC00FA0CE3 /* Debug */,
+				6C992BDD1D472ABC00FA0CE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6C992BC81D472ABC00FA0CE3 /* Project object */;
+}
